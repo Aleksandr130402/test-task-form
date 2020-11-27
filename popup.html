@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>authorization form</title>
+    <link rel="stylesheet" href="popup.css">
+    <!--ссылаемся на шрифты, используемые в документе-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class="popup-container">
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+                <input type="password" class="form-control" id="pass" placeholder="Password"
+                    name="email">
+            </div>
+            <button type="submit" class="btn disabled">LOG IN</button>
+        </form>
+    </div>   
+</body>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+<script src="popup.js"></script>
+</html>
